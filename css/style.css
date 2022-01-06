@@ -183,15 +183,6 @@ p {
     padding-bottom: 10px;
 }
 
-/* Footer */
-
-#main-footer {
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    background: #444
-}
-
 /* ABOUT.html */
 
 #about-info  {
@@ -217,30 +208,6 @@ p {
 }
 
 /* Testamonials */
-
-/* #testamonials{
-    height: 600px;
-    background: url(../img/test-bg.jpg) no-repeat center center/cover;
-    padding-top: 40px;
-}
-
-#testamonials h2 {
-    color: #fff;
-    text-align: center;
-    padding-bottom: 40px;
-}
-
-#testamonials .testamonial {
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
-#testamonials .testamonial img {
-    width: 100px;
-    float: left;
-} */
-
-
 
 #testamonials {
     height: 900px;
@@ -268,4 +235,50 @@ p {
     float: left;
     margin-right: 20px;
     border-radius: 50%;
+}
+
+/* Contact */
+
+#contact-form {
+    padding: 30px 0px;
+    line-height: 1.2em;
+}
+
+#contact-form p {
+    margin-bottom: 10px;
+}
+
+#contact-form label {
+    font-size: 16px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#contact-info {
+    color: #f4f4f4;
+}
+
+/* Footer */
+
+#main-footer {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background: #444
 }
