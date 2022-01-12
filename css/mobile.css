@@ -49,13 +49,6 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1024px)
-{
-    .box {
-        padding: 5px;
-    }
-}
-
 /* About.html */
 
 #about-info .info-left,
