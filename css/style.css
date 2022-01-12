@@ -41,6 +41,7 @@
 
 .large-heading {
     font-size: 40px;
+    line-height: 1.2em;
 }
 
 .btn {
@@ -147,7 +148,7 @@ p {
 
 /* Home-Info */
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -170,7 +171,7 @@ p {
     padding-bottom: 30px;
 }
 
-/* Features */
+/* Home Features */
 
 .box {
     text-align: center;
@@ -183,9 +184,17 @@ p {
     padding-bottom: 10px;
 }
 
+/* for ipads in landscape mode */
+@media screen and (max-width: 1024px)
+{
+    .box {
+        padding: 25px;
+    }
+}
+
 /* ABOUT.html */
 
-#about-info  {
+#about-info {
     padding: 30px 0px;
 }
 
@@ -210,7 +219,7 @@ p {
 /* Testamonials */
 
 #testamonials {
-    height: 900px;
+    height: 100%;
     padding-top: 100px;
     background: url("../img/test-bg.jpg");
 }
